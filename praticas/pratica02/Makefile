@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -Werror -std=c11
 
 TARGET = main
 
-SRCS = main.c busca_largura.c busca_profundidade.c ../pratica01/grafo_lista.c
+SRCS = main.c busca_largura.c busca_profundidade.c
 
 OBJS = $(SRCS:.c=.o)
 
